@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+
+body {
+    display: flex;
+}
+
+* {
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    flex: content;
+    font-family: "Tajawal", sans-serif !important;
+}
+
+.background {
+    display: flex;
+    position: absolute;
+    height: 322px;
+    width: 822px;
+    border-radius: 42px;
+    background-color: rgb(44, 185, 180);
+    top: 262px;
+    left: 500px;
+}
+
+.mohammed {
+    display: flex;
+    position: absolute;
+    top: 222px;
+    left: 330px;
+    height: 27px;
+    width: 162px;
+    border: none;
+    font-size: 17px;
+    border-radius: 12px;
+    background-color: rgb(28, 130, 127);
+}
+
+.mohammed:hover {
+    background-color: rgb(21, 95, 92);
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    color: white;
+    font-size: 32px;
+}
+
+.ahmed {
+    display: flex;
+    position: absolute;
+    border: none;
+    height: 22px;
+    width: 222px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.x {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 32px;
+    left: 791px;
+}
+
+.x:hover {
+    cursor: pointer;
+}
+
+.error {
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    color: red;
+    opacity: 0;
+}
+
+.body {
+    display: none;
+}
